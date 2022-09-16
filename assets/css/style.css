@@ -2,7 +2,7 @@
     display: grid;
     height: 100vh;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    grid-template-rows: .3fr 1fr .8fr .8fr .8fr .3fr;
+    grid-template-rows: .3fr 1fr .8fr .8fr .8fr .8fr .3fr;
     grid-template-areas: 
     "nav nav nav nav nav"
     "aside main main main main"
@@ -26,48 +26,103 @@ main {
     grid-area: main;
 }
 #container1 {
-    background-color: chocolate;
     grid-area: container1;
 }
+#container1 > img {
+    object-fit: cover;
+    width: 100%;
+    max-height: 150px;
+    object-position: top;
+}
 #container2 {
-    background-color: rebeccapurple;
     grid-area: container2;
 }
+#container2 > img {
+    object-fit: cover;
+    width: 100%;
+    max-height: 150px;
+    object-position: top;
+}
 #container3 {
-    background-color: wheat;
     grid-area: container3;
 }
+#container3 > img {
+    object-fit: cover;
+    width: 100%;
+    max-height: 150px;
+    object-position: top;
+}
 #container4 {
-    background-color: olivedrab;
     grid-area: container4;
 }
+#container4 > img {
+    object-fit: cover;
+    width: 100%;
+    max-height: 150px;
+    object-position: top;
+}
 #container5 {
-    background-color: olivedrab;
     grid-area: container5;
 }
+#container5 > img {
+    object-fit: cover;
+    width: 100%;
+    max-height: 150px;
+    object-position: top;
+}
 #container6 {
-    background-color: olivedrab;
     grid-area: container6;
 }
+#container6 > img {
+    object-fit: cover;
+    width: 100%;
+    max-height: 150px;
+    object-position: top;
+}
 #container7 {
-    background-color: olivedrab;
     grid-area: container7;
 }
+#container7 > img {
+    object-fit: cover;
+    width: 100%;
+    max-height: 150px;
+    object-position: top;
+}
 #container8 {
-    background-color: olivedrab;
     grid-area: container8;
 }
+#container8 > img {
+    object-fit: cover;
+    width: 100%;
+    max-height: 150px;
+    object-position: top;
+}
 #container9 {
-    background-color: olivedrab;
     grid-area: container9;
 }
+#container9 > img {
+    object-fit: cover;
+    width: 100%;
+    max-height: 150px;
+    object-position: top;
+}
 #container10 {
-    background-color: olivedrab;
     grid-area: container10;
 }
+#container10 > img {
+    object-fit: cover;
+    width: 100%;
+    max-height: 150px;
+    object-position: top;
+}
 #container11 {
-    background-color: olivedrab;
     grid-area: container11;
+}
+#container11 > img {
+    object-fit: cover;
+    width: 100%;
+    max-height: 150px;
+    object-position: top;
 }
 footer {
     background-color: brown;
@@ -91,6 +146,7 @@ footer {
             "container9"
             "container10"
             "container11"
+            "aside"
             "footer";
     }
 }
