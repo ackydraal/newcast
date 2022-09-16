@@ -1,0 +1,74 @@
+.container {
+    display: grid;
+    height: 100vh;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: .3fr 1fr .8fr .8fr .8fr .3fr;
+    grid-template-areas: 
+    "nav nav nav nav nav"
+    "aside main main main main"
+    "aside container1 container1 container1 container1"
+    "aside container2 container3 container4 container5"
+    "aside container6 container7 container7 container8"
+    "aside container9 container10 container10 container11"
+    "footer footer footer footer footer";
+}
+nav {
+    background-color: aqua;
+    grid-area: nav;
+}
+aside {
+    background-color: aquamarine;
+    grid-area: aside;
+}
+main {
+    background-color: blueviolet;
+    grid-area: main;
+}
+#container1 {
+    background-color: chocolate;
+    grid-area: container1;
+}
+#container2 {
+    background-color: rebeccapurple;
+    grid-area: container2;
+}
+#container3 {
+    background-color: wheat;
+    grid-area: container3;
+}
+#container4 {
+    background-color: olivedrab;
+    grid-area: container4;
+}
+#container5 {
+    background-color: olivedrab;
+    grid-area: container5;
+}
+#container6 {
+    background-color: olivedrab;
+    grid-area: container6;
+}
+#container7 {
+    background-color: olivedrab;
+    grid-area: container7;
+}
+#container8 {
+    background-color: olivedrab;
+    grid-area: container8;
+}
+#container9 {
+    background-color: olivedrab;
+    grid-area: container9;
+}
+#container10 {
+    background-color: olivedrab;
+    grid-area: container10;
+}
+#container11 {
+    background-color: olivedrab;
+    grid-area: container11;
+}
+footer {
+    background-color: brown;
+    grid-area: footer;
+}
